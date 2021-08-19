@@ -1,0 +1,226 @@
+/*My Styles here*/
+
+html, body {
+  height: 100vh;
+  width: 100wh;
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', 'Montserrat';
+  color: #a3a3a0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  min-height: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*HEADING*/
+
+#heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url('../images/restaurant-background.png');
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+  padding: 9rem;
+  text-align: center;
+  height: 100vh;
+}
+
+.title-heading {
+  background:rgba(255,255,255, 0.6);
+  line-height: 230%;
+  padding: 2rem;
+  margin: 5rem 14rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.welcome {
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+
+.title {
+  font-size: 100px;
+  letter-spacing: 6px;
+  padding-bottom: 1rem;
+  color: rgb(180, 80, 8);
+  font-weight: 600;
+}
+
+/*DESCRIPTION & DRINK MENU*/
+
+#cooking-description, #drink-menu {
+  --grid-columns: 1fr 1fr;
+  --grid-rows: 1fr 1fr;
+  display: flex;
+  background-color: rgb(180, 80, 8);
+  height: 100vh;
+}
+
+.description {
+  padding: 10rem 2rem 1rem;
+}
+
+.description h2, .drink-title, .beverage-title, .title-reservation {
+  font-weight: 700;
+  color: rgb(232, 191, 101);
+  font-family: 'Style Script', cursive;
+  font-size: 37px;
+  padding-bottom: 1rem;
+}
+
+.description-image, .image-drink {
+  height: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-rows: var(--grid-rows);
+  grid-template-columns: var(--grid-columns);
+  margin: 2rem;
+  padding: 4rem 0rem 8rem 0;
+}
+
+.description p, .drink-lists {
+  color: rgb(255, 255, 249);
+  font-size: 15px;
+}
+
+.image1, .image5 {
+  width: 250px;
+  height: 100%;
+  grid-row: span 2;
+  grid-column: 1;
+}
+
+.image2, .image3, .image6, .image7 {
+  width: 200px;
+}
+
+/*MENUS*/
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 249);
+  height: 100vh;
+}
+
+.image-menu img {
+  width: 550px;
+  height: 100%;
+}
+
+.menu-lists {
+  padding: 2rem 3rem 6rem 6rem;
+  font-size: large;
+  height: 100%;
+}
+
+.menu-title, .beverage-title {
+  font-weight: 700;
+  color: rgb(180, 80, 8);
+  font-family: 'Style Script', cursive;
+  font-size: 40px;
+  padding: 2rem 0;
+}
+
+.lists span {
+  font-weight: 600;
+  font-style: oblique;
+  color: rgb(232, 191, 101);
+  text-decoration: none;
+}
+
+.lists p {
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(30, 30, 30);
+  font-family: auto;
+  font-size: smaller;
+}
+
+/*DESSERT*/
+
+#dessert, #beverage-menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 249);
+  height: 100vh;
+}
+
+.image-dessert, .image-beverage {
+  width: 550px;
+  height: 100%;
+}
+
+/*DRINKS*/
+
+#drink-menu {
+  justify-content: center;
+}
+
+.drink-lists, .beverage-lists {
+  font-weight: 400;
+  font-style: italic;
+  font-family: auto;
+  font-size: smaller;
+}
+
+.drink-title, .beverage-title {
+  margin-top: 4rem;
+}
+
+/*BEVERAGE*/
+
+#beverage-menu {
+  margin-left: 5rem;
+}
+
+/*RESERVATION*/
+
+#reservation {
+  background-color: rgb(180, 80, 8);
+  height: 100vh;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.title-reservation h3 {
+  font-size: 200%;
+}
+
+.contacts, .fa {
+  font-size: larger;
+  color: rgb(255, 255, 249);
+  padding-bottom: 5rem;
+  letter-spacing: 2px;
+}
+
+.icons {
+  font-size: xx-large;
+  padding: 1rem;
+}
+
+.fa {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.fa:hover {
+  color: rgb(232, 191, 101);
+}
+
+/*COPYRIGHT*/
+
+.copyright {
+  padding-top: 5rem;
+  color: rgb(232, 191, 101);
+  font-size: smaller;
+}
+

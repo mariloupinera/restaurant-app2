@@ -1,0 +1,8 @@
+/*responsive css here*/
+
+@media only screen and (max-width: 768px) {
+  body {
+    --grid-columns: 1fr;
+    --grid-rows: 1fr;
+  }
+}
