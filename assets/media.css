@@ -1,5 +1,72 @@
 /*responsive css here*/
 
+/*HEADING*/
+
+@media only screen and (max-width: 500px) {
+  html {
+    width: 795px;
+  }
+
+  #heading {
+    max-width: fit-content;
+    height: 50vh;
+    padding: 4rem 0;
+  }
+
+  .title {
+    font-size: 49px;
+  }
+
+  .welcome {
+    font-size: 25px;
+  }
+
+  #cooking-description {
+    height: 70vh;
+  }
+
+  #menu, #drink-menu {
+    height: 50vh;
+  }
+
+  .image-menu img {
+    width: 400px;
+  }
+
+  .menu-lists {
+    padding: 0 1rem;
+    font-size: 12px;
+  }
+
+  #dessert, #beverage-menu {
+    height: 55vh;
+  }
+
+  .image-dessert, .image-beverage {
+    padding-left: 5rem;
+  }
+
+  .drink-title, .beverage-title {
+    margin-top: 2rem;
+  }
+
+  #reservation {
+    height: 60vh;
+  }
+
+  .title-reservation h3 {
+    font-size: 100%;
+  }
+
+  .contacts, .fa {
+    font-size: medium;
+  }
+
+  .icons {
+    padding: 0;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   body {
     --grid-columns: 1fr;
