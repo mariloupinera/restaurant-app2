@@ -6,6 +6,42 @@
   }
 }
 
+@media (max-width: 1024px) {
+   #heading, #cooking-description, #menu, #drink-menu, #dessert, #beverage-menu, #reservation {
+    height: 70vh;
+  }
+
+  .image-menu img, .image-dessert, .image-beverage  {
+    width: 400px;
+  }
+
+  .menu-title, .beverage-title, .drink-title, .beverage-title {
+    margin-top: 2rem;
+    padding: 0;
+  }
+
+  .menu-lists {
+    padding: 1rem 3rem 0rem 1rem;
+    font-size: medium;
+  }
+
+  .drink-lists, .beverage-lists, .lists {
+    padding-top: 1rem;
+  }
+
+  .title-reservation h3 {
+    font-size: 150%;
+  }
+
+  .contacts, .fa {
+    padding-bottom: 2rem;
+  }
+
+  .copyright {
+    padding-top: 2rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .image-menu img {
     width: 350px;
@@ -68,6 +104,45 @@
 
   .title-reservation h3 {
     font-size: 130%;
+  }
+}
+
+@media (max-width: 768px) {
+  #heading, #cooking-description, #menu, #drink-menu, #dessert, #beverage-menu, #reservation {
+    height: 50vh;
+  }
+
+  .description {
+    padding: 6rem 2rem 1rem;
+  }
+
+  .menu-lists {
+    padding: 0rem 2rem;
+    font-size: medium;
+  }
+
+  .image-menu img, .image-beverage {
+    width: 330px;
+  }
+
+  .menu-title, .beverage-title {
+    padding: 0;
+  }
+
+  .image5, .image6, .image7 {
+    width: 140px;
+}
+
+  .title-reservation h3 {
+    font-size: 150%;
+  }
+
+  .contacts, .fa {
+    padding-bottom: 2rem;
+  }
+
+  .copyright {
+    padding-top: 1rem;
   }
 }
 
@@ -355,65 +430,85 @@
 
 @media only screen and (max-width: 414px) {
   html {
-    width: 795px;
+    max-width: fit-content;
+    height: 100vh;
   }
 
   #heading {
-    max-width: fit-content;
-    height: 50vh;
-    padding: 4rem 0;
+    height: 25vh;
+    padding: 0;
   }
 
-  .title {
-    font-size: 49px;
+  .title-heading {
+    width: 200px;
+    margin: 0 6rem;
   }
 
-  .welcome {
-    font-size: 25px;
+  #cooking-description, #menu {
+    height: 25vh;
   }
 
-  #cooking-description {
-    height: 70vh;
+  .description {
+    padding: 1rem;
   }
 
-  #menu, #drink-menu {
-    height: 50vh;
+  .description p {
+    font-size: 9px;
   }
 
   .image-menu img {
-    width: 400px;
+    height: 60%;
+    width: 300px;
   }
 
-  .menu-lists {
-    padding: 0 1rem;
-    font-size: 12px;
+  .image-dessert {
+    height: 70%;
+    padding-top: 9rem;
   }
 
-  #dessert, #beverage-menu {
-    height: 55vh;
+  #menu, #dessert, #drink-menu {
+    height: 45vh;
   }
 
-  .image-dessert, .image-beverage {
-    padding-left: 5rem;
+  .menu-title, .beverage-title {
+    margin-top: 0;
   }
 
-  .drink-title, .beverage-title {
-    margin-top: 2rem;
+  .image5, .image6, .image7 {
+    width: 80px;
   }
 
-  #reservation {
-    height: 60vh;
+  #beverage-menu {
+    height: 35vh;
+  }
+
+  .image-beverage {
+    padding-top: 7rem;
+    height: 80%;
   }
 
   .title-reservation h3 {
-    font-size: 100%;
+    font-size: 50%;
+    padding-bottom: 0;
   }
 
   .contacts, .fa {
-    font-size: medium;
+    font-size: 8px;
+    padding-bottom: 0;
   }
 
-  .icons {
-    padding: 0;
+  .follow-us-title h3 {
+    font-size: small;
+    padding-top: 1rem;
   }
+
+  #reservation {
+    height: 30vh;
+  }
+
+  .copyright {
+    padding-top: 1rem;
+  }
+
+
 }
